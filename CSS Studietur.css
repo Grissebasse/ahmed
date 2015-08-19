@@ -3,9 +3,13 @@ body {
 	color:white;
 }
 #menubutton {
-	border-style:solid;
+	border-style:none;
 	width: 148; height: 34;
+}
+#menubutton:hover {
+	background-color: white;
 }
 #menu {
 	background-color: black;
-}
+	}
+
