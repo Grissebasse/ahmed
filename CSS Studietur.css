@@ -6,3 +6,6 @@ body {
 	border-style:solid;
 	width: 148; height: 34;
 }
+#menu {
+	background-color: black;
+}
