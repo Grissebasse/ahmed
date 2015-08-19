@@ -2,6 +2,7 @@ body {
 	background-color: green;
 	color:white;
 }
-#menu {
-	
+#menubutton {
+	border-style:solid;
+	width: 148; height: 34;
 }
