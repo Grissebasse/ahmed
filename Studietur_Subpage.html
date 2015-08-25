@@ -1,15 +1,15 @@
 <html>
+	<script>
+		$(document).ready(function(){
+			$("button2").click(function(){
+			$("#div1").fadeIn(3000);
+			$("#div2").fadeIn(3000);
+		});
+	});
+	</script>
 	<head>
 		<link href="CSS Studietur.css" rel="stylesheet" Type="text/css">
-		<script>
-			$("button").click(function() {
-				$("#pic1").fadeIn(3000);
-			}
-		</script>
 	</head>
-	<div id="pic1">
-		
-	</div>
 	<body>
 		<div ID="bigcontainer"> 
 		<table id=menu>
@@ -20,6 +20,10 @@
 			<td><button id=menubutton onclick="window.location.href='Studietur_Subpage.html'">About us</button></td>
 			</tr>
 			</table>  
-        </div>
+		<button id="button2">Click to start slideshow</button>
+		
+		<div id="div1" class="picture1"></div><br>
+		<div id="div2" class="picture2"></div><br>
+		</div>
 	</body>
 </html>

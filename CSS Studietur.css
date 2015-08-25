@@ -17,10 +17,18 @@ body {
     background-color: white;
     margin-left: 18%;
     margin-right: 22%;
+    margin-top: 
     position: fixed;
     top: 0px;
     width: 65%;
     padding:10px;
     height:100%;
     style:solid;
+}
+
+div.picture1 {
+    content:url(London_Bridge.jpg);
+}
+div.picture2 {
+    content:url(London_Eye.jpg)
 }
