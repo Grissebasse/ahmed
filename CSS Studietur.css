@@ -25,10 +25,7 @@ body {
     height:100%;
     style:solid;
 }
-
-div.picture1 {
-    content:url(London_Bridge.jpg);
-}
-div.picture2 {
-    content:url(London_Eye.jpg)
+#slide {
+    margin-left: auto;
+    margin-left: auto;
 }
