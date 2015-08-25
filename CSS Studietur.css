@@ -1,6 +1,6 @@
 body {
 	background-color: green;
-	color:white;
+	color: black;
 }
 #menubutton {
 	border-style:none;
@@ -13,3 +13,14 @@ body {
 	background-color: black;
 	}
 
+#bigcontainer {
+    background-color: white;
+    margin-left: 18%;
+    margin-right: 22%;
+    position: fixed;
+    top: 0px;
+    width: 65%;
+    padding:10px;
+    height:100%;
+    style:solid;
+}
