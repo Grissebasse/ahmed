@@ -1,31 +1,39 @@
 body {
-	background-color: green;
+	background-color: black;
 	color: black;
 }
 #menubutton {
 	border-style:none;
 	width: 148; height: 34;
+    
 }
 #menubutton:hover {
 	background-color: white;
 }
 #menu {
 	background-color: black;
+    margin-left: auto;
+    margin-right: auto;
 	}
 
 #bigcontainer {
     background-color: white;
-    margin-left: 18%;
-    margin-right: 22%;
-    margin-top: 
+    color: black;
+    margin-left: 20%;
+    margin-right: 20%;
     position: fixed;
     top: 0px;
-    width: 65%;
+    width: 50%;
     padding:10px;
     height:100%;
     style:solid;
 }
-#slide {
-    margin-left: auto;
-    margin-left: auto;
+#slideshow{
+    margin-left: 40%;
+    margin-right: 50%;
+    position: relative;
+    top: 0px;
+    width: 100;
+    padding: 10px;
+    height: 100%;
 }

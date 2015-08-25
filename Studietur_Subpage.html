@@ -14,8 +14,8 @@
 			<td><button id=menubutton onclick="window.location.href='Studietur_Subpage.html'">About us</button></td>
 			</tr>
 		</table>  
-			
-			<script type="text/javascript">
+		<div id="slideshow">
+		<script type="text/javascript">
 				var slideimages = new Array() // laver en array som preloader billederne
 				slideimages[0] = new Image() // laver et nyt billede
 				slideimages[0].src = "London_Eye.jpg" // sætter et billede source
@@ -23,38 +23,27 @@
 				slideimages[1].src = "London_Bridge.jpg"
 				slideimages[2] = new Image()
 				slideimages[2].src = "Tower_of_London.jpg"
-			</script>
+		</script>
 		<body>
-		<a href="javascript:slidelink()"><img src="London_Eye.jpg" id="slide" width=295 height=171 /></a>
-
+		<img src="London_Eye.jpg" id="slide" width="300" height="150"/>
+		
 		<script type="text/javascript">
 
-		//variable vil forøge gennem billederne
+		//definerer variablen til næste funktion
 		var step = 0
-		var whichimage = 0
 
+		//Variabel værdien vil forøge gennem billederne
 		function slideit(){
-			document.getElementById('slide').src = slideimages[step].src
- 			whichimage = step
+			document.getElementById('slide').src = slideimages[step].src //Selve hoveddelen af javascriptet som henter de forskellige images
  			if (step<2)
   				step++
  			else
   				step=0
 		}
-
-		function slidelink(){ //Funktionen skifter i mellem de forskellige billeder
-			if (whichimage == 0)
-  				window.location = "link1.htm"
- 			else if (whichimage == 1)
-  				window.location = "link2.htm"
- 			else if (whichimage == 2)
-  				window.location = "link3.htm"
-		}
-
-			slideit()
-
 		</script>
+		
 		<button onclick="slideit()">Click</button>
+		</div>
 		</div>
 	</body>
 </html>
